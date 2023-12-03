@@ -1,0 +1,25 @@
+1.Name of the Use Case: Dispense coffee with milk
+2.Goal: The user selects coffee and sugar and recieves a cup of coffee 
+from a vending machine
+3.Preconditions:
+-the vending machine works
+-user has enough credits on their prepaid card to pay for the drink
+4. Trigger: User selects "Dispense coffee" option
+5. Usual flow:
+-user aproches the machine and interacts with the interface
+-user selects the "Dispense coffee" option
+-the machine verifies the availibility of the ingredients
+-the machine asks for a prepaid card
+-the user enters their card
+-the machine verifies the card has enough credits on it
+-the machine gives the user back their card
+-the user recieves the cup of coffee with milk
+6. Alternate Flows:
+-machine detects it doesn't have enough coffee or milk and sends user back
+7. Postconditions:
+-the user recieves their cup of coffee
+-the machine is ready for the next transaction
+8. Exection flows:
+-if an error occurs the error message is dispalyed and transaction is canceled
+9. Assumptions:
+-user has enough credits
